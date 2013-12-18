@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '0.1.0'
+version = '0.1.1'
 
 setup(
     name='wn-client',
@@ -9,6 +9,7 @@ setup(
     description='Talk to wn framework over HTTP',
     author='Pratik Vyas',
     author_email='pdvyas@erpnext.com',
+	download_url='https://github.com/webnotes/wn-client/archive/'+version+'.tar.gz',
     packages=find_packages(),
     zip_safe=False,
     include_package_data=True,
